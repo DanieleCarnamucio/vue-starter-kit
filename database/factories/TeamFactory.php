@@ -19,7 +19,7 @@ class TeamFactory extends Factory
         return [
             'name' => $this->faker->company(),
             'alias' => $this->faker->word(),
-            'logo' => $this->faker->imageUrl(640, 480, 'sports', true, 'Team Logo'),
+            'logo' => 'https://picsum.photos/200',
             'created_at' => now(),
         ];
     }
